@@ -1,0 +1,66 @@
+3.1. Fill in the blanks in each of the following:
+
+      a) Each class declaration that begins with keyword class must be stored in a file that has exactly the same name as the class and ends with the .java file-name extension.
+      b) Keyword public in a class declaration is followed immediately by the class’s name.
+      c) Keyword new requests memory from the system to store an object, then calls the corresponding class’s constructor to initialize the object.
+      d) Each parameter must specify both a type and a variable name.
+      e) By default, classes that are compiled in the same directory are considered to be in the same package, known as the default package.
+      f) When each object of a class maintains its own copy of an attribute, the field that represents the attribute is also known as an instance variable.
+      g) Java provides two primitive types for storing floating-point numbers in memory: float and double.
+      h) Variables of type double represent double-precision floating-point numbers.
+      i) Scanner nextDouble method returns a double value.
+      j) Keyword public is an access modifier.
+      k) Return type void indicates that a method will not return a value.
+      l) Scanner method nextLine reads characters until it encounters a newline character, then returns those characters as a String.
+      m) Class String is in package java.lang.
+      n) An import declaration is not required if you always refer to a class with its fully qualified class name.
+      o) A floating-point number is a number with a decimal point, such as 7.33, 0.0975 or 1000.12345.
+      p) Variables of type float represent single-precision floating-point numbers.
+      q) The format specifier %f is used to output values of type float or double.
+      r) Types in Java are divided into two categories—: Primitive types and Reference types.
+
+3.2 State whether each of the following is true or false. If false, explain why.
+
+  a) By convention, method names begin with an uppercase first letter, and all subsequent words in the name begin with a capital first letter.
+      False… method names begin with a lowercase first letter and subsequent words in the name begin with a capital letter.
+      
+  b) An import declaration is not required when one class in a package uses another in the same package.
+      True
+      
+  c) Empty parentheses following a method name in a method declaration indicate that the method does not require any parameters to perform its task.
+      True
+      
+  d) Variables or methods declared with access modifier private are accessible only to methods of the class in which they’re declared.
+      True
+      
+  e) A primitive-type variable can be used to invoke a method.
+      False… Primitive-type variables do not refer to object, so such variables cannot be used to invoke methods.
+      
+  f) Variables declared in the body of a particular method are known as instance variables and can be used in all methods of the class.
+      False… Variables declared in the body of a particular method are known as local variables.
+      
+  g) Every method’s body is delimited by left and right braces ({ and }).
+      True
+      
+  h) Primitive-type local variables are initialized by default.
+      False… Primitive-type instance variables are initialized by default.
+      
+  i) Reference-type instance variables are initialized by default to the value null. 
+      True
+      
+  j) Any class that contains public static void main (String[] args) can be used to execute an application.
+      False… the one that’s invoked is the one in the class named in the java command.
+  
+  k) The number of arguments in the method call must match the number of parameters in the method declaration’s parameter list.
+      True
+      
+  l) Floating-point values that appear in source code are known as floating-point literals and are type float by default.
+      False… Java treats all floating-point numbers as double values by default.
+
+3.3 What is the difference between a local variable and a field? Local variable are declared in the body of a particular method and when that method terminates, the values of its local variables are lost. Fields are declared inside a class declaration but outside the body of the class’s method declarations and can be used or modified at any time during an application’s execution.
+
+3.4 Explain the purpose of a method parameter.
+      The methods are objects that perform tasks.
+  
+    What is the difference between a parameter and an argument?
+      Argument values are passed to corresponding parameters so that the parameter may complete its task.
