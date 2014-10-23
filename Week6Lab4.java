@@ -11,8 +11,7 @@ public class Week6Lab4
 		int count=1;
 		
 		JOptionPane.showMessageDialog(null, "It's the Rock, Paper, Scissors game!");
-		JOptionPane.showMessageDialog(null, "Please enter Rock, Paper, or Scissors");
-		
+
 		do
 		{
 			randomPlay = generator.nextInt(3)+1;
@@ -27,7 +26,7 @@ public class Week6Lab4
 			
 			// Prompt user to enter Rock, Paper, or Scissors			
 			String myPlay =
-					JOptionPane.showInputDialog("Enter you play: ").toUpperCase();
+					JOptionPane.showInputDialog("Please enter Rock, Paper, or Scissors").toUpperCase();
 			
 			String message =
 					String.format("Your play is %s", myPlay);
