@@ -42,7 +42,7 @@ public class Week6Lab4
 			if(myPlay.equals("ROCK"))
 			{
 				if(computerPlay.equals("PAPER"))
-				JOptionPane.showMessageDialog(null, "Paper covers rock. You lose");
+				JOptionPane.showMessageDialog(null, "Paper covers rock. You lose!");
 				else if(computerPlay.equals("SCISSORS"))
 					JOptionPane.showMessageDialog(null, "Rock crushes scissors. You win!");
 				else
