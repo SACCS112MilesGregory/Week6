@@ -71,3 +71,4 @@ public class Week6Lab14
 		} while(count<4);
 	}
 }
+
