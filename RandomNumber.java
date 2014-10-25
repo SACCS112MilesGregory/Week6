@@ -6,3 +6,4 @@ public class RandomNumber
 		return (int)(Math.random() * 3 + 1);
 	}
 }
+
