@@ -71,3 +71,4 @@ public class Week6Lab4
 		} while(count<4);
 	}
 }
+// Ok for all labs (week 6)
